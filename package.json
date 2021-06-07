@@ -1,0 +1,35 @@
+{
+  "name": "yandex-praktikum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenyshipko/yandex-praktikum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgenyshipko/yandex-praktikum/issues"
+  },
+  "homepage": "https://github.com/evgenyshipko/yandex-praktikum#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@babel/register": "^7.12.10",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
